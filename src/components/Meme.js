@@ -51,8 +51,8 @@ export default function Meme() {
         </button>
         <div className="meme-wrapper">
           <img src={meme.image} alt="" className="meme-image" />
-          <h2>{meme.topText}</h2>
-          <h2>{meme.bottomText}</h2>
+          <h2 className='top-text'>{meme.topText}</h2>
+          <h2 className='bottom-text'>{meme.bottomText}</h2>
         </div>
       </form>
     </div>
