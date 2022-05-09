@@ -5,9 +5,71 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page-width {
+  max-width: 750px;
+  padding: 0 20px;
+  margin: auto;
 }
+
+header {
+  color: white;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+
+  .page-width {
+    padding: 20px;
+  }
+
+  .left-col {
+    display: flex;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+}
+
+main {
+  padding: 40px 0;
+
+  form {
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    input,
+    button {
+      color: #0D0D0D;
+      font-size: 1rem;
+      padding: 0.7em;
+      border: 1px solid #D5D4D8;
+      border-radius: 0.5rem;
+    }
+
+    input[type="text"] {
+      flex-grow: 1;
+    }
+
+    button {
+      flex: 1 1 100%;
+      color: white;
+      font-weight: 600;
+      background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    }
+  }
+
+  .meme-wrapper {
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
