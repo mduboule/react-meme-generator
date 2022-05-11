@@ -6,4 +6,4 @@ I made minor additional changes:
 - use SCSS and made personal style decisions
 - adapt markup
 
-Preview is available on [https://mduboule.github.io/react-meme-generator/](this repo's github page). Fun.
+Preview is available on [this repo's github page](https://mduboule.github.io/react-meme-generator/). Fun.
