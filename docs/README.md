@@ -2,5 +2,8 @@
 
 Based off the material presented by Bob Ziroll in his 2022 Tutorial for React JavaScript Library.
 
-I made additional changes:
+I made minor additional changes:
 - use SCSS and made personal style decisions
+- adapt markup
+
+Preview is available on [https://mduboule.github.io/react-meme-generator/](this repo's github page). Fun.
